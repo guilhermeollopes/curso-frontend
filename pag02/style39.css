@@ -1,0 +1,21 @@
+div {
+    width: 150px;
+    height: 100px;
+    background-color: aqua;
+}
+.block {
+    display: block;
+}
+.inline-block {
+    display: inline-block;
+}
+.inline {
+    display: inline;
+}
+
+/*
+    None: Usado para ocultar um elemento da tela, geralmente usado para fechar janelas internas em sites.
+    Block: Quando usado o elemento pode receber atributo como largura, altura, etc. Virando um block, quando usado o elemento ocupa uma linha inteira. Geralmente é usado para poder criar janelas internas em sites, etc.
+    Inline-Block: É uma mistura de block com inline, na onde pode se definir atributos como largura,altura, etc do block, mas tem o comportamento como o de ficar um ao lado do outro do inline.
+    Inline: Usado para textos, ele não recebe atributos como largura e altura, e não fica um abaixo do outro.
+*/

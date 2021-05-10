@@ -1,0 +1,18 @@
+div{
+    background-color: brown;
+}
+span{
+    background-color: darkolivegreen;
+}
+div span {
+    background-color: blueviolet;
+}
+
+/*
+    Quando se usa por exemplo div, span, o atributo estara definindo os dois tipos
+
+    Quando se usa por exemplo div span, sem a virgula, que diser que eu vou modifica algo
+    que seja um span e estea dentro de uma div. Atenção: se ele vocẽ colocou dentro de
+    uma div apenas, não importa se o span vai tar dentro de um p ou outro elemento, ele
+    vai pegar o elemento. Para não pegar deve-se passar mais atributos.    
+*/

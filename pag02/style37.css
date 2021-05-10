@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+.texto {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+    color: red; 
+    font-size: 40px; 
+    font-family: 'Times New Roman'; 
+    font-weight: bold; 
+    text-align: center; 
+    text-transform: uppercase; 
+    text-decoration: underline; 
+
+    margin: auto; /*Ele calcula a margem para deixar centralizado*/
+    margin-top: 20px; /*Da um expassamento externo na parte de cima da div*/
+    padding-top: 100px; /*Da um expassamento internao na parde de cima da div
+}

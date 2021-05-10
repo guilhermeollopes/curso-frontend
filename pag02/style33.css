@@ -1,0 +1,24 @@
+.menu {
+    /*Defindo cor padrão de fundo do menu, defindo margin externa e interna como 0*/
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    /*Defindo o icone do list como nenhum, e definindo os itens do menu como inline-block para poderem ficar um ao lado do outro*/
+    list-style: none;
+    display: inline-block;
+    
+}
+.menu a {
+    /*Definindo a cor padrão do texto, tirando a linha do link, definindo o display block para conseguir alterar o tamanho da caixa do link, e definindo o tamanho da caixa do link*/
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.menu a:hover {
+    /*Definindo ao passar o mouse: cor branca para o fundo e cor azul para o texto*/
+    background-color: white;
+    color: blue;
+}

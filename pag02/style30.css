@@ -1,0 +1,31 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 5px;
+}
+.txt1 {
+    position: static;
+    
+}
+.txt2 {
+    position: fixed;
+    top: 50px;
+    left: 300px;
+}
+.txt4{
+    position: absolute;
+}
+
+
+/*
+    Tipos de position:
+    Static: Fica fixo em relação a pagina, mas não flutua.
+    Absolute: Fica fixo em relação a página, flutuando em relação ao anterior.
+    Fixed: Fica fixo em relação ao navegador, independente se a pagina rolar para baixo.
+    Relative: Serve para criar profundidade(camadas)
+
+    Quando não se espcifica o position, altomaticamente ele interpreta sendo static.
+
+    Caso não seja especificado o local com o (lefth, right, top e bottom), e ele fica no local relativo ao iten anterior.
+*/

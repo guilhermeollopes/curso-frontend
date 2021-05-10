@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+}
+#cabecalho {
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
+#cabecalho p {
+    margin: 0px;
+    margin-bottom: 13px;
+    font-size: 40px;
+}
+#cabecalho span{
+    font-size: 20px;
+}
+.menu {
+    background-color: red;
+}
+.menu + div {
+    color: yellowgreen;
+}

@@ -1,0 +1,51 @@
+
+/*Parte do Menu e SubMenu*/
+.menu, .sbmenu {
+    background-color: #051f24;
+    margin: 0;    
+    padding: 0;   
+}
+.menu {
+    box-shadow: 4px 4px black;
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+.menu a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.menu a:hover {
+    background-color: rgb(231, 231, 231);
+    color: #031316;
+}
+.item-menu {
+    text-transform: uppercase;
+}
+
+/*Parte da Logo Marca*/
+#logomarca {
+    font-size: 18px;
+    color: white;
+    right: 20px;
+    top: 5.4px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+}
+
+/*Parte do Sub-Menu*/
+.submenu-paginas {
+    position: absolute;
+    width: 89.3438px;
+    display: none;
+}
+.menu li:hover .submenu-paginas {
+    display: inline-block;
+}
+.submenu-paginas .sbmenu li {
+    display: block;
+}

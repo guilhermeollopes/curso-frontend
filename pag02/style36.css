@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+.texto {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+
+    color: red; /*Alterar cor do texto*/
+    font-size: 40px; /*Alterar o tamanho da fonte do texto*/
+    font-family: 'Times New Roman'; /*Muda o tipo de fonte*/
+    font-weight: bold; /*Expessura da Fonte*/
+    text-align: center; /*Alinhamento do Texto*/
+    text-transform: uppercase; /*Transformar o texto em caixa altar ou baixa, etc*/
+    text-decoration: underline; /*Decorações do Texto*/
+}

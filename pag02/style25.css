@@ -1,0 +1,22 @@
+a {
+    color: teal;
+}
+
+a:hover {
+    color: purple;
+}
+
+div {
+    background-color: teal;
+}
+div:hover span{
+    background-color: purple;
+}
+
+/*
+    O seletor hover serve para aplicar o css no elemento que o mouse estiver em cima. Casjo ajá outras modificações no css relacionado ao mesmo elemento só que sem o hover, ele sobre escreve as informações. Caso no hover ele não especifique algum valor definido ele vai usar a da sem a hover.
+
+    Voce pode usar o hover em outro elemento, e na frente colocar o elemento que voce que que tenha a alteração.
+
+    Atneção a instrução acima só funciona caso você queira controlar um elemento, cujo o elemento que vai ser controlado esteja dentro do elemento acionador.
+*/

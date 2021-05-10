@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+.teste{
+    color: white;
+    background-color: gray;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+img{
+    border: 3px solid gray;
+    border-radius: 4px;
+}
+
+/*
+    Ordem de Atributos do border:
+    Tamanho, Tipo, Cor
+
+    Para arrendondar: border-radius:10px;
+*/

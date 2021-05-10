@@ -1,0 +1,16 @@
+div {
+    background-color: red;
+}
+div span {
+    background-color: greenyellow;
+}
+
+/*
+    O seletor por herança é similar ao seletor interno, mas enquanto o seletor interno
+    pega qualquer elemento dentro do local especificado, independente se ele estiver
+    dentro de outro elemento.
+    
+    Já no seletor por herança, ele só vai pegar quem estiver dentro do elemento especifi_
+    cado, ele não vai pegar elementos que estão dentro de elementos que não foram especi_
+    ficados.
+*/

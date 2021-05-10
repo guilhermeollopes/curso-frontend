@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+}
+p {
+    margin-bottom: 60px;
+    text-align: justify;
+}
+.rodape {
+    height: 60px;
+    width: 100%;
+    background-color: greenyellow;
+    color: cyan;
+    bottom: 0px;
+    position: fixed;
+}

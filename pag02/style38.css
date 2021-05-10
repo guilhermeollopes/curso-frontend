@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+.texto {
+    height: 2000px;
+}
+.flutuanteabs {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 10px;
+    left: 100px;
+    background-color: cornflowerblue;
+}
+.flutuantefix {
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    top: 10px;
+    right: 100px;
+    background-color: cornflowerblue;
+}
+
+/*
+    A dois tipos de position, que deixa um elemento flutuante, o absolute e fixed.
+    No Absolute, o elemento fica fixo na tela, e ao rolar a pagina ele não vai junto.
+    No Fixed, o elemento fica fixo na tela, mais ao rolar a pagina ele continua no mesmo local.
+*/

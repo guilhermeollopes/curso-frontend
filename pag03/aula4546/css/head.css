@@ -1,0 +1,36 @@
+* {
+    font-family: Arial;
+}
+.head {
+    height: 50px;
+    background-color: #353535;
+}
+.headinter {
+    width: 1000px;
+    margin: auto;
+    line-height: 50px;
+    color: white;
+}
+.logomarca {
+    float: left;
+    font-size: 24px;
+}
+.menu {
+    float: right;
+}
+.menu ul, .menu li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.menu li:hover {
+    background-color: #3480c1;
+}

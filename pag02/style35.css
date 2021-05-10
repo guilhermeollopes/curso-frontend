@@ -1,0 +1,45 @@
+.menu {
+    background-color: blue;
+    margin: 0px;
+    padding: 0px;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover {
+    background-color: white;
+    color: blue;
+}
+
+
+.sm-sobre { /*DIV - Vai estar definido a posição do submenu que é a baixo do iten do menu, o display para que fique escondido, e o tamanho minimo*/
+    position: absolute;
+    display: none;
+    min-width: 150px;
+}
+.menu li:hover .sm-sobre { /*Vai definir quando alguem passar o mouse sobre inten do menu, que a div fique aparente e seja um inline block*/
+    display: inline-block;
+}
+.sm-sobre .menu li { /*Faz com que as li que estão dentro da ul com classe menu que estao dentro de sm-sobre, fiquem em block deixando uma abaixo da outra*/
+    display: block;
+}
+
+
+.sm-contato {
+    display: none;
+    min-width: 150px;
+    position: absolute;
+}
+.menu li:hover .sm-contato {
+    display: inline-block;
+}
+.sm-contato .menu li {
+    display: block;
+}

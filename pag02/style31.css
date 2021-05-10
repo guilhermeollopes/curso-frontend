@@ -1,0 +1,27 @@
+div, span {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+}
+#txt1 {
+    display: none;
+}
+.txt {
+    display: inline;
+}
+#spn {
+    display: block;
+}
+
+/*
+    Tipos de displays:
+
+    None: Ele faz o elemento sumir da tela, de forma como se ele não existisse. Não é apenas ficar invisivel. (Veja no txt1)
+
+    Block: Faz qualquer elemento, ter uma representação como bloco como uma div (veja no span).
+
+    Inline: O inline faz ter o funcionamento padrão de apenas a linha, como um span. (veja nos txt).
+
+    Inline-Block: Ele faz com que o elemento tenha as propriedades de um inline(span) de ficar um ao lado do outro, por exemplo. Mas vai ter a aparencia de um block.
+*/

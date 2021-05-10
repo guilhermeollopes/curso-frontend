@@ -1,0 +1,45 @@
+/*Menu*/
+.menu {
+    background-color: #280033;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+.menu a:hover {
+    background-color: white;   
+    color: #280033;
+}
+
+/*Sub-Menus*/
+.submenu-sobre, .submenu-contato {
+    position: absolute;
+    display: none;
+}
+.menu li:hover .submenu-sobre, .menu li:hover .submenu-contato {
+    display: inline-block
+}
+.submenu-sobre .menu li, .submenu-contato .menu li {
+    display: block;
+}
+
+.logomarca {
+    right: 20px;
+    top: 3px;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    position: absolute;
+}
+
+#ttdocorpo {
+    text-align: center;
+}

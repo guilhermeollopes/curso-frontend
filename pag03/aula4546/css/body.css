@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.bodyinter {
+    width: 1000px;
+    margin: auto;
+}
+.title {
+    height: 72px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 72px;
+    padding: 9px;
+}
+.fotos img{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 40px;
+}

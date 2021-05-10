@@ -1,0 +1,24 @@
+.mdiv {
+    width: 100%px;
+    height: 100px;
+    background-color: red;
+    color: white;
+}
+.menu{
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+    float: left;
+}
+.conteudo{
+    width: 500px;
+    height: 300px;
+    background-color: greenyellow;
+    float: right;
+}
+.marc{
+    background-color: yellow;
+}
+body{
+    margin: 0;
+}

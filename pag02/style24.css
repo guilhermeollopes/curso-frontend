@@ -1,0 +1,9 @@
+.header + span {
+    background-color: blueviolet;
+    color: white;
+
+}
+
+/*
+    O seletor adjacente server para definir o css de um elemento que venha apos o outro elemento, ele pode servir para mais de um elemento. Por exemplo você pode usar para 2 p que sempre vem após uma div.
+*/
