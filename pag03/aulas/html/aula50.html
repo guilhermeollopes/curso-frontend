@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de Input</title>
+</head>
+<body>
+    <input type="search" name="search"> <!--Usado para caixas de pesquisa, possui limpa-->
+    <form method="post">
+        E-Mail
+        <input type="email" name="email" required> <!--Para pegar o email-->
+        URL
+        <input type="url" name="url" required> <!--Para conseguir pegar uma url-->
+        TELEFONE
+        <input type="tel" name="tel" required> <!--Para pegar um telefone-->
+        NUMERO
+        <input type="number" name="number" required> <!--Para pegar um numero-->
+        <br>
+        SLIDE
+        <input type="range" name="range" required> <!--Pega um valor com um slider-->
+        DATA
+        <input type="date" name="data" required> <!--Pega uma data-->
+        MÊS
+        <input type="month" name="month" required> <!--Pega um mês-->
+        SEMANA
+        <input type="week" name="week" required> <!--Pega uma semana-->
+        TEMPO
+        <input type="time" name="time" required> <!--Pega um tempo-->
+        <br>
+        DATA e HORA
+        <input type="datetime-local" name="datetime-local" required> <!--Pega data e hr-->
+        COR
+        <input type="color" name="color" required>
+        <br>
+        <input type="button" value="Enviar"> <!--Adiciona um botão-->
+    </form>
+</body>
+</html>
+
+<!--
+    O require faz com que o proprio HTML5 verifique se a informação contida no elemento está preenchida e no formato correto.
+-->
