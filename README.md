@@ -3,7 +3,7 @@
 
  Caso você queira acessar o site para ver os arquivos sendo execultado, use o link abaixo:
  
- [Clique para acessar o Site](https://guilhermeoliveiralopes.github.io/guidecurseoffrontend)
+ [Clique para acessar o Site](https://guilhermeoliveiralopes.github.io/cursefrontend)
 
  Aproveite ao maximo este conteudo que preparamos para você!
 
