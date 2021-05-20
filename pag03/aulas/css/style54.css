@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+}
+.teste {
+    width: 600px;
+    height: 300px;
+    background-color: aqua;
+}
+
+@media only screen and (orientation:landscape) {
+    .teste {
+        width: 200px;
+    }
+}
+
+/*
+    Ao ultilizar o "@media only screen", você pode acrecentar na frente o "and ()" dentro dos parentezes você coloca o requisito para o css que esta dentro dos colchetes sejá aplicado.
+    Também pode se usar mais de um and (), por exemplo, ... and (requisito 1)  and (requisito 2) { ...
+    Alguns exemplos de requisitos são: 
+        orientation:landscape - faz com que o css seja aplicado quadno a tela do dispositivo esteja na horizontal.
+        max-width - Quando o largura da tela for menor do que ...
+        min-width - Quando a largura da tela for maior do que ...
+        max-height - Quando a altura da tela for menor do que ...
+        min-height - Quando a altura da tela for maior do que ...
+*/

@@ -1,4 +1,4 @@
-# Como acessar?
+## Como acessar?
  Para os arquivos, você pode olhar os arquivos acima, ou você pode fazer um fork.
 
  Caso você queira acessar o site para ver os arquivos sendo execultado, use o link abaixo:
@@ -7,7 +7,7 @@
 
  Aproveite ao maximo este conteudo que preparamos para você!
 
-### Atenção
+## Atenção
 
  Todo conteudo como imagens, vídeos, dentre outros, que estão dentro deste repositorio, possum Direitos Autorais pelo seu prorprietario, mas os arquivos HTML e CSS, não possuem direitos autorais, podendo ser usados, comercializados, e modificados.
 
