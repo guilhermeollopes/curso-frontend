@@ -5,4 +5,4 @@
 
  Caso você queira acessar o site para ver os arquivos sendo execultado, use o link abaixo:
  
- [Clique para acessar o Site](https://guilhermeollopes.github.io/cursofrontend)
+ [Clique para acessar o Site](https://guilhermeollopes.github.io/curso-frontend)
