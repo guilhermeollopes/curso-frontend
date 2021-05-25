@@ -32,9 +32,21 @@ body {
 }
 @media only screen and (max-width:800px) {
     .topo, .corpo, .rodape {
-        width: 400px;
+        width: 500px;
+    }
+}
+@media only screen and (max-width:500px) {
+    .topo, .corpo, .rodape {
+        width: 500px;
+    }
+    .topo {
+        height: 200px;
     }
     .logo, .menu {
         width: 100%;
     }
 }
+
+/*
+    Neste usa o media only screen para pre-definir os tamanhos dos elementos quando a janela estive do tamanho especificado.
+*/
