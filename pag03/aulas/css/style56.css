@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.cabecalho {
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    text-align: center;
+    line-height: 100px;
+}
+.cabecalho h1 {
+    margin-block: 0;
+}
+.cidades {
+    width: 25%;
+    float: left;
+}
+.cidades h3 {
+    padding-left: 10px;
+}
+.cidades p {
+    padding: 10px;
+}
+@media only screen and (max-width: 780px) {
+    .cidades{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .cidades {
+        width: 100%;
+    }
+}

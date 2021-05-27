@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.site {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #FFF;
+}
+.cabecalho {
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    text-align: center;
+    line-height: 100px;
+}
+.cabecalho h1 {
+    margin-block: 0px;
+}
+.menu {
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+.menu ul, .menu li {
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    list-style: none;
+    height: 25px;
+    border-bottom: 1px solid #CCC;
+}
+.menumobile{
+    display: none;
+}
+.conteudo {
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.anuncios {
+    width: 25%;
+    height: 300px;
+    float: right;
+    background-color: #DDD;
+}
+.rodape {
+    clear: both;
+    height: 80px;
+    background-color: #CCC;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+    .conteudo {
+        width: 75%;
+    }
+    .anuncios{
+        width: 75%;
+        height: 70px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .menu, .conteudo, .anuncios{
+        width: 100%;
+    }
+    .anuncios{
+        height: 70px;
+    }
+    .menu {
+        height: 40px;
+        text-align: center;
+    }
+    .menu ul{
+        display: none;
+    }
+    .menumobile {
+        display: block;
+    }
+}
