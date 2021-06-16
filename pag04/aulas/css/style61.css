@@ -1,0 +1,19 @@
+.formulario {
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 3px 3px black;
+    text-align: center;
+}
+.formulario h2 {
+    text-transform: uppercase;
+}
+.formulario input {
+    margin-bottom: 10px;
+}
+.formulario #btnEntrar {
+    margin-top: 10px;
+}

@@ -1,0 +1,15 @@
+.btnAcessarSite {
+    margin: center;
+    display: block;
+}
+.btnAcessarSite a{
+    padding: 10px;
+    background-color: #051f24;
+    box-shadow: 4px 4px 0px black;
+    text-decoration: none;
+    color: white;
+}
+.btnAcessarSite a:hover {
+    background-color: rgb(231, 231, 231);
+    color: #051f24;
+}

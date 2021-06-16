@@ -1,0 +1,13 @@
+.pnp-central {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+.pnp-central li{
+    text-align: center;
+    list-style: none;
+}
+.pnp-central a {
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+}

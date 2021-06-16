@@ -1,0 +1,15 @@
+.pnp-lateral {
+    float: right;
+    width: 30%;
+}
+.pnp-lateral img {
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.pnp-lateral h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Zen Dots', cursive;
+}
