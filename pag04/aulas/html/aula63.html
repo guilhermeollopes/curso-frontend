@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style61.css">
-    <title>Required</title>
+    <title>Autocomplete</title>
 </head>
 <body>
     <form action="" class="formulario" method="post">
     <h2>Login</h2>
-    Usuario
-    <input type="text" name="usuario" id="txtUser" placeholder="Digite seu usuario" autofocus required> <br>
+    E-Mail
+    <input type="email" name="usuario" id="txtUser" placeholder="Digite seu usuario" autofocus autocomplete="on"> <br>
     Senha
-    <input type="password" name="senha" id="txtSenha" placeholder="Digite sua senha" maxlength="5"> <br>
+    <input type="password" name="senha" id="txtSenha" placeholder="Digite sua senha" autocomplete="on" maxlength="5"> <br>
     <input type="button" value="Entrar" id="btnEntrar">
     </form>
 </body>
@@ -21,5 +21,5 @@
 
 <!--
     Nesta aula eu usei o mesmo style da aula 61, pois não se meche com css nesta aula.
-    O required é usado para campos em que o preenchimento é obrigatorio. Desta forma o navegador não vai deixar o usuario enviar o formulario sem antes ter preenchido o campo. Também ao passar o mouse por cima do campo aparece uma mensagem.
+    O auto complete serve para o navegador oferecer opções que á foram digitado anteriormente no campo.
 -->
