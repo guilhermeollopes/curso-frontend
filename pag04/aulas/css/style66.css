@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+#box {
+    width: 500px;
+    height: 200px;
+    background: blue; /*Adição da cor solida caso o graidenet não sea suportado pelo navegador*/
+    background: linear-gradient(75deg,blue, white); /*O Gradiente Principal*/
+    background: -moz-linear-gradient(75deg,blue, white); /*Gradiente para o mozila caso o principal não funcione*/
+    background: -o-linear-gradient(75deg,blue, white); /*Gradiente para o opera caso o principal não funcione*/
+    background: -webkit-linear-gradient(75deg,blue, white); /*Gradiente para o safari caso o principal não funcione*/
+}
+/*A ordem de paramentros dentro do linear-gradient é (angulo do gradiente que usa o prefixo deg para indicar graus, quantas cores quiser separando-as por virgua)*/
