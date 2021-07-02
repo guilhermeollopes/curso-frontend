@@ -1,0 +1,20 @@
+@keyframes piscacor { /*Cria uma animação chamada piscacor*/
+    0% {background-color: red; top: 0px; left: 0px;} /*Aos 0% do tempo da animação ...*/
+    25% {background-color: yellow; top: 0px; left: 200px;} /*Aos 25% do tempo da a...*/
+    50% {background-color: blue; top: 200px; left: 200px;} /*Aos 50% do tempo da a...*/
+    75% {background-color: green; top: 200px; left: 0px;} /*Aos 75% do tempo da a...*/
+    100% {background-color: red; top: 0px; left: 0px;} /*Aos 100% do tempo da animaç...*/
+}
+body {
+    margin: 0;
+}
+#quadro {
+    width: 150px;
+    height: 150px;
+    position: absolute; /*Deixa a div com position abslute para poder deixar a animação movimentar a div*/
+    background-color: green;
+    animation-name: piscacor; /*Chama a animação piscacor*/
+    animation-duration: 4s; /*Define quanto tempo vai durar animação pisca cor*/
+    animation-delay: 2s; /*Define um delay para animção começar*/
+    animation-iteration-count: infinite; /*Define quantas vezes a animação vai repetir pode se colocar um numero ou infinite caso seá um um loopin infinito*/
+}
