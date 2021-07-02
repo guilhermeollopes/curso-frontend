@@ -12,7 +12,7 @@ body {
     width: 150px;
     height: 150px;
     position: absolute; /*Deixa a div com position abslute para poder deixar a animação movimentar a div*/
-    background-color: green;
+    background-color: white;
     animation-name: piscacor; /*Chama a animação piscacor*/
     animation-duration: 4s; /*Define quanto tempo vai durar animação pisca cor*/
     animation-delay: 2s; /*Define um delay para animção começar*/

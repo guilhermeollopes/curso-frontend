@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+#caixa {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: green;
+    box-shadow: 10px 10px #888888;
+}
+#texto {
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+
+/*
+Se usa box shadow para caixas e text shadow para texto
+A ordem dos atributos que se coloca no box shadow é: Distancia Horizontal Distancia Vertical Espalhamento Cor
+*/
