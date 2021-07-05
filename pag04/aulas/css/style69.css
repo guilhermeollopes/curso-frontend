@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+.caixa {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: green;
+    transition: all 1s linear; /*Adição da transição*/
+}
+.caixa:hover {
+    width: 300px;
+    background-color: brown;
+}
+#link {
+    color: black;
+    transition: all 1s linear; /*Adição da transição*/
+}
+#link:hover {
+    color: brown;
+}
+
+/*
+    A propriedade transition serve para criar uma transição para uma mudança feita, a ordem de atributos dentro delas são (a que atributos vai ser aplicado essa transição, o tempo, e o tipo.
+    A transição só ocorre quando há uma mudança.
+*/
