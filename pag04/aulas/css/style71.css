@@ -1,0 +1,15 @@
+body {
+    marigin: 0;
+}
+.caixa {
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+/*
+    O word-wrap server para dar quebra de linha altomatica no texto, para que se encaiche no elemento em que está.
+    Existem dois tipos de atributos que é possivel colocar no word-wrap:
+        Normal - Quem mantem o texto no formato orginal (por padrão);
+        Break-Word - Que quebra a linha para se adequar ao tamanho do elemento.
+*/
