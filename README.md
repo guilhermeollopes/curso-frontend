@@ -7,4 +7,4 @@
 
  Caso você queira acessar o site, use o link abaixo:
  
- [Acessar Site](https://guilhermeollopes.github.io/curso-frontend)
+ [Acessar o Site](https://guilhermeollopes.github.io/curso-frontend)
