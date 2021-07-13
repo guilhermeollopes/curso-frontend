@@ -1,0 +1,16 @@
+##### Aula Portal 1 #####
+Status: Completo
+
+Geral:
+	Remover todas margens do site;
+
+Criar uma div para a superior-bar:
+	Altura 30px;
+	Cor 333(Cinza);
+	Criar uma div para superior-bar-content:
+		Largura 100% - Max 1040;
+		Altura 30px;
+		Alinhar ao Centro;		
+#########################
+
+
