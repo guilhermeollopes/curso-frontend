@@ -3,6 +3,8 @@ Status: Completo
 
 Geral:
 	Remover todas margens do site;
+	Fonte padrão Arial;
+	Tamanho de fonte padrão 12px;
 
 Criar uma div para a superior-bar:
 	Altura 30px;
@@ -11,6 +13,21 @@ Criar uma div para a superior-bar:
 		Largura 100% - Max 1040;
 		Altura 30px;
 		Alinhar ao Centro;		
+		Criar uma div para superior-bar-content-left:
+			Largura 50%;
+			Altura 30px;
+			Ficar grudado a esquerda
+			Criar um menu com 4 itens links (Home, Quem Somo, Anuncie Aqui e Contato):
+				Deixar como itens de um menu;
+				Deixar um iten ao lado do outro;
+				Remover estilo de lista e links;
+				Deixar as linhas com altura centralizada;
+				Deixar um espaçamento entre eles de 16px;
+				O Primeiro com um espaçamento de 8px da margem;
+				Deixar com a cor Branca;
+				Deixar o iten atual com a cor azul;
+	Criar uma div para superior-bar-content-right;
+		Largura 50%;
+		Altura 30px;
+		Ficar grudado a direita
 #########################
-
-
