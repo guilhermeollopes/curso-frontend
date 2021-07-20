@@ -6,6 +6,7 @@ body {
 .superior-bar {
     height: 30px;
     background-color: #333;
+    color: white;
 }
 .superior-bar-content{
     width: 100%;
@@ -39,6 +40,21 @@ body {
 }
 .superior-bar-content-right {
     width: 50%;
-    height: 30px;
+    height: 28px;
+    margin-top: 2px;
+    float: right;
+}
+.superior-bar-content-right a {
+    float: right;
+}
+#search-bar {
+    width: 110px;
+    height: 20px;
+    outline: 0px;
+    float: right;
+}
+#search-button {
+    width: 26px;
+    height: 26px;
     float: right;
 }
