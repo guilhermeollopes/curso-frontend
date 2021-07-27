@@ -1,0 +1,43 @@
+.menu {
+    height: 40px;
+}
+.menu, .sub-menu {
+    background-color: red;
+}
+.menu-content {
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+}
+.menu-content ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menu-content li {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+}
+.menu-content li a {
+    color: white;
+    text-decoration: none;
+}
+.sub-menu {
+    width: 90px;
+    position: absolute;
+    display: none;
+}
+.menu li:hover .sub-menu{
+    display: block;
+}
+.menu .sub-menu-iten{
+    height: 20px;
+    line-height: 20px;
+    padding: 10px;
+}
+.menu .sub-menu-iten:hover{
+    background-color: #F55;
+}

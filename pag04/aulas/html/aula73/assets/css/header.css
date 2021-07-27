@@ -1,0 +1,27 @@
+.header {
+    height: 95px;
+    color: black;
+}
+.header-content {
+    width: 100%;
+    max-width: 1040px;
+    height: 95px;
+    margin: auto;
+}
+.logo {
+    width: 230px;
+    height: 85px;
+    margin-top: 10px;
+    float: left;
+}
+.logo img {
+    width: 230px;
+    height: 85px;
+}
+.banner {
+    width: 650px;
+    height: 80px;
+    margin-top: 7px;
+    background-color: red;
+    float: right;
+}
