@@ -1,33 +1,40 @@
-##### Aula Portal 1 #####
-Status: Completo
-
-Geral:
-	Remover todas margens do site;
-	Fonte padrão Arial;
-	Tamanho de fonte padrão 12px;
-
-Criar uma div para a superior-bar:
-	Altura 30px;
-	Cor 333(Cinza);
-	Criar uma div para superior-bar-content:
-		Largura 100% - Max 1040;
-		Altura 30px;
-		Alinhar ao Centro;		
-		Criar uma div para superior-bar-content-left:
-			Largura 50%;
-			Altura 30px;
-			Ficar grudado a esquerda
-			Criar um menu com 4 itens links (Home, Quem Somo, Anuncie Aqui e Contato):
-				Deixar como itens de um menu;
-				Deixar um iten ao lado do outro;
-				Remover estilo de lista e links;
-				Deixar as linhas com altura centralizada;
-				Deixar um espaçamento entre eles de 16px;
-				O Primeiro com um espaçamento de 8px da margem;
-				Deixar com a cor Branca;
-				Deixar o iten atual com a cor azul;
-	Criar uma div para superior-bar-content-right;
-		Largura 50%;
-		Altura 30px;
-		Ficar grudado a direita
-#########################
++ Criar uma area para ultimas noticias
+	altura 50px
+	+ Criar uma area para ultimas noticias content
+		largura 100%
+		larg max 1040
+		altura 40px
+		alinhar
+		+Criar uma div para ultimas noticias area
+			altura 28px
+			cor de fundo branco
+			borda 1px cinza solicod
+			margin superior 10 px
+			+Criar uma area para ultima noticia titulo
+				cor de fundo vermelho
+				cor de texto branco
+				tamanho da fonte 16px
+				altura 28px
+				altura da linha 8px
+				padding lateiras de 10px
+			+Criar uma area para ultima noticias titulo
+				cor de texto preto
+				altura 28px
+				alura da linha 28px
+				padding a esquerda 5px
++Criar uma area para containter
+	+Criar uma area para containter-content
+		largura 100%
+		largura maxima 1040
+		alinhar ao centro
+		+Criar uma area para leftside
+			largura 753px
+			fixar a esquerda
+			altura minima 200px
+		+Criar uma area para rightside
+			largura 275px
+			+altura minima 200px
+			fixar a direirta
+			margem da esquerda 12px
+		
+			
