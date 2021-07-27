@@ -1,0 +1,18 @@
+.container-content {
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+}
+.container-content .leftside {
+    width: 753px;
+    min-height: 200px;
+    float: left;
+    background-color: gray;
+}
+.container-content .rightside {
+    width: 275px;
+    min-height: 200px;
+    margin-left: 12px;
+    float: right;
+    background-color: gray;
+}
