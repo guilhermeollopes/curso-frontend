@@ -1,0 +1,24 @@
+.widget {
+    border: 1px solid #dedede;
+}
+.widget .tittle {
+    height: 33px;
+    padding-left: 8px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #dedede;
+    font-size: 11px;
+    line-height: 33px;
+}
+.widget .content {
+    height: 42px;
+    background-color: #fefefe;
+}
+.widget .content-area {
+    margin: auto;
+    text-align: center;
+}
+.widget .content-area img{
+    padding-top: 8px;
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+}
