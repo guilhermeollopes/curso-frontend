@@ -1,4 +1,5 @@
 .widget {
+    margin-bottom: 12px;
     border: 1px solid #dedede;
 }
 .widget .tittle {
@@ -9,16 +10,33 @@
     font-size: 11px;
     line-height: 33px;
 }
-.widget .content {
+.widget-social-content {
     height: 42px;
-    background-color: #fefefe;
-}
-.widget .content-area {
     margin: auto;
+    background-color: #fefefe;
     text-align: center;
 }
-.widget .content-area img{
+.widget-social-content img{
     padding-top: 8px;
     margin-left: 1.5px;
     margin-right: 1.5px;
+}
+.widget-lastnews-content {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.widget-lastnews-content .news-iten {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.widget-lastnews-content a {
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+}
+.widget-lastnews-content .news-iten-last {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
