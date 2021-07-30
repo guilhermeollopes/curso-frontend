@@ -1,0 +1,16 @@
+.slideshow {
+    height: 336px;
+    background-color: gray;
+    overflow: hidden;
+}
+.slideshowcontent {
+    width: 100000px;
+    height: 336px;
+}
+.slide {
+    height: 336px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
