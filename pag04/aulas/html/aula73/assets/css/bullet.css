@@ -1,0 +1,14 @@
+.bulletcontent {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+}
+.bullet {
+    width: 14px;
+    height:14px;
+    margin-top: 9px;
+    margin-left: 9px;
+    float: left;
+    background-color: white;
+    border-radius: 7px;
+}

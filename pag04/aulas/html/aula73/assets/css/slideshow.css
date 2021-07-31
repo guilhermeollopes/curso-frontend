@@ -6,6 +6,7 @@
 .slideshowcontent {
     width: 100000px;
     height: 336px;
+    transition: all 1s;
 }
 .slide {
     height: 336px;
@@ -13,4 +14,19 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.slideinfo {
+    height: 53px;
+    width: 100%;
+    margin-top: 286px;
+    padding-left: 9px;
+    background-image: url('../images/slideshow_bg.png');
+    float: left;
+    color: white;
+}
+.slideinfo-tittle {
+    font-size: 15px;
+}
+.slideinfo-content {
+    font-size: 11px;
 }
