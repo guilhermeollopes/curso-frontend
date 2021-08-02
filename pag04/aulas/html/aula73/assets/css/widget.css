@@ -9,6 +9,7 @@
     border-bottom: 1px solid #dedede;
     font-size: 11px;
     line-height: 33px;
+    text-transform: uppercase;
 }
 .widget-social-content {
     height: 42px;
@@ -39,4 +40,7 @@
 .widget-lastnews-content .news-iten-last {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.slideshow + .widget {
+    margin-top: 18px;
 }
