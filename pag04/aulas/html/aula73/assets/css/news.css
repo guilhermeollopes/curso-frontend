@@ -3,7 +3,7 @@
 }
 .slideshow + .widget .left {
     float: left;
-    height: 330px;
+    height: 398px;
 }
 .slideshow + .widget .right {
     width: 300px;
@@ -41,13 +41,24 @@
 }
 .big {
     width: 406px;
+    margin-left: 13px;
 }
 .big .news-item-cape {
     width: 398px;
+    height: 224px;
 }
 .big .news-item-tittle {
     width: 398px;
+    margin-top: 4px;
+    font-size: 20px;
 }
 .big .news-item-coments {
     width: 398px;
+}
+.big .news-item-description {
+    width: 398px;
+    margin: 8px;
+    margin-top: 16px;
+    float: left;
+    font-size: 9px;
 }
