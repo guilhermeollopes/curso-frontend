@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox: Alinhamento (1/2)</title>
+    <style>
+        .content {
+            display: flex;
+            flex-wrap: wrap; /*Serve para força o tamanho escolhido para cada item, e reposicionar os que não couberam na proxima linha*/
+            flex-flow: row wrap; /*Esta prorpriedade serve para usar o flex-direction e flex-wrap em um so atributo*/
+            justify-content: center; /*Serve para alinhar os itens do flexbox*/
+            background-color: gray;
+            margin: 10px;
+        }
+        .content div {
+            width: 200px;
+            height: 50px;
+            margin: 10px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+</body>
+</html>
