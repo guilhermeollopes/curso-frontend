@@ -6,19 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .content{
-
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center; /*Serve para alinhar todo conteudo mesmo se ele estiver em linhas*/
         }
         .content div {
-
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            line-height: 100px;
+        }
+        .div6 {
+            order: 2; /*O order serve para escolher a ordem os itens do flexbox, por padrão vem em 0*/
+        }
+        .div9 {
+            order: -1; /*Também pode-se usar valores negativos para especificar o order*/
         }
     </style>
     <title>Flexbox: Alinhamentos (2/2)</title>
 </head>
 <body>
     <div class="content">
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div class="div6">6</div>
+        <div>7</div>
+        <div>8</div>
+        <div class="div9">9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+
     </div>
 </body>
 </html>
