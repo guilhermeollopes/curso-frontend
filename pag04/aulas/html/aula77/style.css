@@ -1,0 +1,95 @@
+:root {
+    --color-background-primary: #203040;
+    --color-background-second: #EAF2BB;
+    --color-border: #F7BC05;
+}
+body {
+    background-color: var(--color-background-primary);
+}
+.content {
+    width: 75%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border: var(--color-border) solid 3px ; 
+    background-color: var(--color-background-second);
+    text-align: center;
+}
+.tittle {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.subtittle {
+    width: 500px;
+    margin: auto;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    
+}
+.linedivision {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+.foto{
+    border: var(--color-border) solid 3px;
+}
+.description {
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.timeline {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.timeline .line {
+    height: 15px;
+    display: flex;
+    border: var(--color-background-primary) solid 3px;
+    margin-bottom: 2px;
+}
+.timeline .date {
+    width: 50px;
+    background-color: var(--color-background-primary);
+    color: var(--color-background-second);
+}
+.timeline .text {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--color-background-primary);
+    line-height: 15px;
+}
+.readmore {
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.readmore a {
+    height: 16px;
+    display: inline-block;
+    background-color: var(--color-background-primary);
+    color: var(--color-background-second);
+    text-decoration: none;
+    line-height: 16px;
+    border: var(--color-background-primary) solid 3px;
+    border-radius: 3px;
+}
+footer {
+    height: 30px;
+    text-align: center;
+    color: var(--color-background-second);
+}
+footer a {
+    color: var(--color-background-second);
+    text-decoration: none;
+}
