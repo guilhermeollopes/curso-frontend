@@ -1,0 +1,54 @@
+:root {
+    --color-background-primary: #fff;
+    --color-background-second: #1C2021;
+    --color-primary: #D04E33;
+    --color-second: #353C3E;
+
+}
+body {
+    background-color: var(--color-background-second);
+}
+.content {
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    background-color: var(--color-background-primary);
+    box-shadow: var(--color-primary) 5px 5px;
+}
+h1 {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.linedivision {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+.table {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.label {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}.table input{
+    background-color: var(--color-second);
+    color: var(--color-background-primary);
+    box-shadow: #D04E33 2px 2px;
+    border: none;
+    outline: none;
+}
+.table select {
+    background-color: var(--color-second);
+    color: var(--color-background-primary);
+    box-shadow: #D04E33 2px 2px;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Formulario de Inscrição</h1>
+        <img src="https://cdn.pixabay.com/photo/2020/06/19/17/41/divider-5318234_960_720.png" alt="Line Division" class="linedivision">
+            <form action="post">
+            <table class="table">
+                <tr>
+                    <td align="right"><div class="label">Nome</div></td>
+                    <td><input type="text" name="txtText" id="txtText"></td>
+                    <td align="right"><div class="label">Sobrenome</div></td>
+                    <td><input type="text" name="txtSobrenome" id="txtSobrenome"></td>
+                </tr>
+                <tr>
+                    <td align="right"><div class="label">Sexo</div></td>
+                    <td><select name="txtSexo" id="txtSexo">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                    </select></td>
+                    <td align="right"><div class="label">Data de Nascimento</div></td>
+                    <td><input type="date" name="txtDate" id="txtDate"></td>
+                </tr>
+                <tr>
+                    <td align="right"><div class="label">Telefone</div></td>
+                    <td><input type="tel" name="txtTel" id="txtTel"></td>
+                    <td align="right"><div class="label">Email</div></td>
+                    <td><input type="email" name="txtEmail" id="txtEmail"></td>
+                </tr>
+                <tr>
+                    <td align="right"><div class="label">Formação</div></td>
+                    <td><select name="txtFormacao" id="txtFormacao">
+                        <option value="coroinha">Coroinha</option>
+                        <option value="cerimoniario">Cerimoniário</option>
+                    </select></td>
+                    <td align="right"><div class="label">Paróquia</div></td>
+                    <td><input type="text" name="txtParoquia" id="txtParoquia"></td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="4"><input type="button" value="ENVIAR"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
