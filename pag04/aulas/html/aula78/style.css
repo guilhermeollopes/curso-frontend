@@ -39,16 +39,22 @@ h1 {
     margin-right: 10px;
     margin-bottom: 10px;
 }.table input{
-    background-color: var(--color-second);
+    background-color: var(--color-background-second);
     color: var(--color-background-primary);
     box-shadow: #D04E33 2px 2px;
     border: none;
     outline: none;
 }
 .table select {
-    background-color: var(--color-second);
+    background-color: var(--color-background-second);
     color: var(--color-background-primary);
     box-shadow: #D04E33 2px 2px;
     border: none;
     outline: none;
+}
+input:focus {
+    background-color: var(--color-second);
+}
+select:focus {
+    background-color: var(--color-second);
 }
