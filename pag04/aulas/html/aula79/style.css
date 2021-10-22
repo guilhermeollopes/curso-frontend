@@ -1,0 +1,9 @@
+input[type=text] {
+    background-color: blue;
+}
+input[name="pass"] { /*Para valores não padrões deve-se usar entre aspas*/
+    background-color: brown;
+}
+[type=button] {
+    background-color: chocolate;
+}
