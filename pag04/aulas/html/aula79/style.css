@@ -7,3 +7,15 @@ input[name="pass"] { /*Para valores não padrões deve-se usar entre aspas*/
 [type=button] {
     background-color: chocolate;
 }
+a[href*="guilhermeollopes"] { /*Se usa *= no lugar de = quando você quer que ele procure algo dentro do atributo*/
+    color: greenyellow;
+}
+a[href^="https"] { /* O ^= se usa no lugar do =  quando você quer que ele começe com o texto ou atributo descrito*/
+    background-color: indianred;
+}
+a[href^="http:"] { /*Se colocou o dois pontos no final para evitar dele reconhecer os que possuem o s*/
+    background-color: black;
+}
+a[href$="dlacolor"] { /* O ^= se usa no lugar do =  quando você quer que ele termine com o texto ou atributo descrito*/
+    font-size: 20px;
+}
